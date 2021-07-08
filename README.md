@@ -76,6 +76,7 @@ docker build -t getting-started .
 
 Clean up
 ```bash
+cd
 rm -Rf $HOME/docker_demo
 ```
 
