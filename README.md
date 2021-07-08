@@ -84,11 +84,11 @@ rm -Rf $HOME/docker_demo
 Version HTTP
 ```bash
 
-docker run -td --privileged -p 9000:9000 -p 8000:8000 \
---name portainer --restart always \
--v /certs/privkey1.pem:/certs/privkey1.pem \
--v portainer_data:/data \
-portainer/portainer-ce 
+cd docker_demo/demo04
+
+docker-compose up
+
+
 
 ```
 
