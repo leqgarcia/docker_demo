@@ -60,12 +60,27 @@ ls -la
 
 ## demo 03: Dockerfile 
 
-
+Download code from git
 ```bash
 yum -y install git
-git clone
-cd 
+cd $HOME
+git clone https://github.com/leqgarcia/docker_demo.git
+cd docker_demo/demo03
 ```
+
+Build the image and tag it
+```bash
+vim Dockerfile
+docker build -t getting-started .
+```
+
+Clean up
+```bash
+rm -Rf $HOME/docker_demo
+```
+
+
+
 
 
 
