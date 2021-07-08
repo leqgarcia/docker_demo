@@ -1,7 +1,5 @@
 # Introduccion a Docker 
 
-### Surfeando la curva de aprendizaje
-
 Luis E Garcia
 2021-07-07
 
@@ -10,7 +8,7 @@ Luis E Garcia
 
 - Introduccion
 
-Presentacion basica de fundamentos tecnicos y vision general de demos que, de manera progresiva, ilustran conceptos relevantes y su relacion con un ambiente Cloud tipo OpenShift.
+Presentacion basica de fundamentos tecnicos y vision general de conceptos relevantes y su relacion con un ambiente Cloud tipo OpenShift.
 
 - Links: 
     - [Docker en Wikipeda](https://en.wikipedia.org/wiki/Docker_(software) )
@@ -82,11 +80,22 @@ rm -Rf $HOME/docker_demo
 
 
 
+## demo 04: Docker compose
+Version HTTP
+```bash
+
+docker run -td --privileged -p 9000:9000 -p 8000:8000 \
+--name portainer --restart always \
+-v /certs/privkey1.pem:/certs/privkey1.pem \
+-v portainer_data:/data \
+portainer/portainer-ce 
+
+```
 
 
 
 
-## demo 04: Portainer
+## demo 05: Portainer
 Version HTTP
 ```bash
 
@@ -117,7 +126,7 @@ portainer/portainer-ce \
 
 
 
-## demo 05: Preparations for deploying Postgres via Portainer
+## demo 06: Preparations for deploying Postgres via Portainer
 ```bash
 # create directory for data persistence
 mkdir -p /opt/pgdata       
