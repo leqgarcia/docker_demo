@@ -84,7 +84,7 @@ rm -Rf $HOME/docker_demo
 Version HTTP
 ```bash
 
-cd docker_demo/demo04
+cd $HOME/docker_demo/demo04
 
 docker-compose up
 
