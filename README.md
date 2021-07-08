@@ -60,7 +60,6 @@ ls -la
 
 Download code from git
 ```bash
-yum -y install git
 cd $HOME
 git clone https://github.com/leqgarcia/docker_demo.git
 cd docker_demo/demo03
