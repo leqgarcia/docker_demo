@@ -9,7 +9,8 @@ ssh lab-user@studentvm.x64sh.example.opentlc.com
 ```
 
 ```bash
-oc login -u legarcia-ibm.com https://api.shared-na46.openshift.opentlc.com:6443```
+oc login -u legarcia-ibm.com https://api.shared-na46.openshift.opentlc.com:6443
+```
 
 
 
