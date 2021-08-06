@@ -5,7 +5,7 @@
 
 
 ```bash
-ssh lab-user@studentvm.x64sh.example.opentlc.com
+ssh lab-user@studentvm.xdjxc.example.opentlc.com
 ```
 
 ```bash
